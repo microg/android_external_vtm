@@ -50,7 +50,7 @@ public class MapView extends GLSurfaceView {
     static final Logger log = LoggerFactory.getLogger(MapView.class);
 
     static {
-        System.loadLibrary("vtm-jni");
+        //System.loadLibrary("vtm-jni");
     }
 
     protected final AndroidMap mMap;
