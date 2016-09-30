@@ -69,7 +69,7 @@ public class MapView extends GLSurfaceView {
         if (isInEditMode())
             return;
 
-        init();
+        //init();
 
         /* Not sure if this makes sense */
         this.setWillNotDraw(true);
